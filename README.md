@@ -8,6 +8,12 @@ Admin: https://docs.medusajs.com/admin/quickstart
 Original Medusa with Docker setup: https://github.com/medusajs/docker-medusa
 
 # TO-DO:
+
+## Build docker images before running containers
+```
+docker compose up --build
+```
+
 ## Find backend IP address
 https://stackoverflow.com/questions/17157721/how-to-get-a-docker-containers-ip-address-from-the-host
 ```
@@ -20,7 +26,7 @@ docker inspect <backend_container_ID>
 GATSBY_MEDUSA_BACKEND_URL=http://<backend_container_IP>:9000
 ```
 
-## Build docker images before running containers
+## Re-build docker images again
 ```
 docker compose up --build
 ```
