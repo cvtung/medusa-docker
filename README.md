@@ -4,6 +4,9 @@ Backend: https://docs.medusajs.com/quickstart/quick-start
 Storefront: https://docs.medusajs.com/starters/gatsby-medusa-starter/
 
 Admin: https://docs.medusajs.com/admin/quickstart
+
+Original Medusa with Docker setup: https://github.com/medusajs/docker-medusa
+
 # TO-DO:
 ## Find backend IP address
 https://stackoverflow.com/questions/17157721/how-to-get-a-docker-containers-ip-address-from-the-host
